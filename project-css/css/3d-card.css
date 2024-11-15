@@ -1,0 +1,53 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+body{
+	background-image:url(../img/bg.jpg);
+}
+.card{
+	height:300px;
+	width:400px;
+	border:1px solid black;
+	border-radius:20px;
+	perspective:800px;
+	margin:50px;
+	 position:absolute; 
+	 top:50%; 
+	bottom:0;
+	left:50%;
+	right:0;
+	transform:translate(-50%,-50%);
+}
+.card-inner{
+	width:100%;
+	height:100%;
+	position:relative;
+	transform-style:preserve-3d;
+	transition:1s;
+}
+.front-side , .back-side{
+	width:100%;
+	height:100%;
+	text-align:center;
+	line-height:300px;
+	font-size:25px;
+	color:black;
+	position:absolute;
+	backface-visibility:hidden;
+	transition:1s;
+	border-radius:20px;
+}
+.front-side{
+	background-color:#98E4FF;
+	
+	
+}
+.back-side{
+	background-color:#80B3FF;
+	transform:rotateY(180deg);
+}
+.card:hover .card-inner{
+	transform:rotateY(180deg);
+}

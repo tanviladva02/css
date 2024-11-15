@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>flex-property</title>
+		<link href="css/flex-property.css" rel="stylesheet" type="text/css"/>
+	</head>
+	<body>
+	
+		<h2>parent-property:-</h2><br/><br/>
+		<h2>Display:flex;</h2>
+		<div class="background">
+			<div class="box">1</div>
+			<div class="box">2</div>
+			<div class="box">3</div>
+			<div class="box">4</div>
+			<div class="box">5</div>
+		</div>
+		
+		<h2>flex-direction:row;</h2>
+		<div class="background row">
+			<div class="box">1</div>
+			<div class="box">2</div>
+			<div class="box">3</div>
+			<div class="box">4</div>
+			<div class="box">5</div>
+		</div>
+		
+		<h2>flex-direction:row-reverse;</h2>
+		<div class="background row-reverse">
+			<div class="box">1</div>
+			<div class="box">2</div>
+			<div class="box">3</div>
+			<div class="box">4</div>
+			<div class="box">5</div>
+		</div>
+		
+		<h2>flex-direction:column;</h2>
+		<div class="background column">
+			<div class="box">1</div>
+			<div class="box">2</div>
+			<div class="box">3</div>
+			<div class="box">4</div>
+			<div class="box">5</div>
+		</div>
+		
+		<h2>flex-direction:column-reverse;</h2>
+		<div class="background column-reverse">
+			<div class="box">1</div>
+			<div class="box">2</div>
+			<div class="box">3</div>
+			<div class="box">4</div>
+			<div class="box">5</div>
+		</div>
+		
+		<h2>flex-wrap:wrap(row);</h2>
+		<div class="background wrap">
+			<div class="box">1</div>
+			<div class="box">2</div>
+			<div class="box">3</div>
+			<div class="box">4</div>
+			<div class="box">5</div>
+			<div class="box">1</div>
+			<div class="box">2</div>
+			<div class="box">3</div>
+			<div class="box">4</div>
+			<div class="box">5</div>
+			<div class="box">1</div>
+			<div class="box">2</div>
+			<div class="box">3</div>
+			<div class="box">4</div>
+			<div class="box">5</div>
+			<div class="box">1</div>
+			<div class="box">2</div>
+			<div class="box">3</div>
+			<div class="box">4</div>
+			<div class="box">5</div>
+		</div>
+		
+		<h2>flex-wrap:wrap(column);</h2>
+		<div class="background wrap bgc">
+			<div class="box">1</div>
+			<div class="box">2</div>
+			<div class="box">3</div>
+			<div class="box">4</div>
+			<div class="box">5</div>
+			<div class="box">1</div>
+			<div class="box">2</div>
+			<div class="box">3</div>
+			<div class="box">4</div>
+			<div class="box">5</div>
+			<div class="box">1</div>
+			<div class="box">2</div>
+			<div class="box">3</div>
+			<div class="box">4</div>
+			<div class="box">5</div>
+			<div class="box">1</div>
+			<div class="box">2</div>
+			<div class="box">3</div>
+			<div class="box">4</div>
+			<div class="box">5</div>
+		</div>
+		
+		<h2>flex-wrap:no-wrap;</h2>
+		<div class="background no-wrap">
+			<div class="box">1</div>
+			<div class="box">2</div>
+			<div class="box">3</div>
+			<div class="box">4</div>
+			<div class="box">5</div>
+			<div class="box">1</div>
+			<div class="box">2</div>
+			<div class="box">3</div>
+			<div class="box">4</div>
+			<div class="box">5</div>
+			<div class="box">1</div>
+			<div class="box">2</div>
+			<div class="box">3</div>
+			<div class="box">4</div>
+			<div class="box">5</div>
+			<div class="box">1</div>
+			<div class="box">2</div>
+			<div class="box">3</div>
+			<div class="box">4</div>
+			<div class="box">5</div>
+		</div>
+		
+		<h2>flex-wrap:wrap-reverse;</h2>
+		<div class="background wrap-reverse">
+			<div class="box">1</div>
+			<div class="box">2</div>
+			<div class="box">3</div>
+			<div class="box">4</div>
+			<div class="box">5</div>
+			<div class="box">1</div>
+			<div class="box">2</div>
+			<div class="box">3</div>
+			<div class="box">4</div>
+			<div class="box">5</div>
+			<div class="box">1</div>
+			<div class="box">2</div>
+			<div class="box">3</div>
+			<div class="box">4</div>
+			<div class="box">5</div>
+			<div class="box">1</div>
+			<div class="box">2</div>
+			<div class="box">3</div>
+			<div class="box">4</div>
+			<div class="box">5</div>
+		</div>
+		
+		<h2>flex-flow:direction wrap;</h2>
+		<div class="background direction-wrap">
+			<div class="box">1</div>
+			<div class="box">2</div>
+			<div class="box">3</div>
+			<div class="box">4</div>
+			<div class="box">5</div>
+			<div class="box">1</div>
+			<div class="box">2</div>
+			<div class="box">3</div>
+			<div class="box">4</div>
+			<div class="box">5</div>
+			<div class="box">1</div>
+			<div class="box">2</div>
+			<div class="box">3</div>
+			<div class="box">4</div>
+			<div class="box">5</div>
+			<div class="box">1</div>
+			<div class="box">2</div>
+			<div class="box">3</div>
+			<div class="box">4</div>
+			<div class="box">5</div>
+		</div>
+		
+		<h2>justify-content:flex-start;</h2>
+		<div class="background flex-start">
+			<div class="box">1</div>
+			<div class="box">2</div>
+			<div class="box">3</div>
+			<div class="box">4</div>
+			<div class="box">5</div>
+		</div>
+		
+		<h2>justify-content:flex-end;</h2>
+		<div class="background flex-end">
+			<div class="box">1</div>
+			<div class="box">2</div>
+			<div class="box">3</div>
+			<div class="box">4</div>
+			<div class="box">5</div>
+		</div>
+		
+		<h2>justify-content:center;</h2>
+		<div class="background center">
+			<div class="box">1</div>
+			<div class="box">2</div>
+			<div class="box">3</div>
+			<div class="box">4</div>
+			<div class="box">5</div>
+		</div>
+		
+		<h2>justify-content:space-between;</h2>
+		<div class="background space-between">
+			<div class="box">1</div>
+			<div class="box">2</div>
+			<div class="box">3</div>
+			<div class="box">4</div>
+			<div class="box">5</div>
+		</div>
+		
+		<h2>justify-content:space-evenly;</h2>
+		<div class="background space-evenly">
+			<div class="box">1</div>
+			<div class="box">2</div>
+			<div class="box">3</div>
+			<div class="box">4</div>
+			<div class="box">5</div>
+		</div>
+		
+		<h2>justify-content:space-around;</h2>
+		<div class="background space-around">
+			<div class="box">1</div>
+			<div class="box">2</div>
+			<div class="box">3</div>
+			<div class="box">4</div>
+			<div class="box">5</div>
+		</div>
+		
+		<h2>align-items:flex-start;</h2>
+		<div class="background align-items-flex-start">
+			<div class="box">1</div>
+			<div class="box">2</div>
+			<div class="box">3</div>
+			<div class="box">4</div>
+			<div class="box">5</div>
+		</div>
+		
+		<h2>align-items:flex-end;</h2>
+		<div class="background align-items-flex-end">
+			<div class="box">1</div>
+			<div class="box">2</div>
+			<div class="box">3</div>
+			<div class="box">4</div>
+			<div class="box">5</div>
+		</div>
+		
+		<h2>align-items:stretch;</h2>
+		<div class="background align-items-stretch">
+			<div class="box1">1</div>
+			<div class="box1">2</div>
+			<div class="box1">3</div>
+			<div class="box1">4</div>
+			<div class="box1">5</div>
+		</div>
+		
+		<h2>align-items:baseline;</h2>
+		<div class="background align-baseline">
+			<div class="box2">In publishing and graphic design</div>
+			<div class="box2">In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate theIn publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the</div>
+			<div class="box2">In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the</div>
+			<div class="box2">In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate theIn publishing and graphic design</div>
+			<div class="box2">In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demon</div>
+		</div>
+		
+		<h2>align-content:flex-start</h2>
+		<div class="background align-content-flextstart">
+			<div class="box">1</div>
+			<div class="box">2</div>
+			<div class="box">3</div>
+			<div class="box">4</div>
+			<div class="box">5</div>
+			<div class="box">1</div>
+			<div class="box">2</div>
+			<div class="box">3</div>
+			<div class="box">4</div>
+			<div class="box">5</div>
+			<div class="box">1</div>
+			<div class="box">2</div>
+			<div class="box">3</div>
+			<div class="box">4</div>
+			<div class="box">5</div>
+			<div class="box">1</div>
+			<div class="box">2</div>
+			<div class="box">3</div>
+			<div class="box">4</div>
+			<div class="box">5</div>
+			<div class="box">1</div>
+			<div class="box">2</div>
+			<div class="box">3</div>
+			<div class="box">4</div>
+			<div class="box">5</div>
+		</div>
+		
+		<h2>align-content:flex-end</h2>
+		<div class="background align-content-flexend">
+			<div class="box">1</div>
+			<div class="box">2</div>
+			<div class="box">3</div>
+			<div class="box">4</div>
+			<div class="box">5</div>
+			<div class="box">1</div>
+			<div class="box">2</div>
+			<div class="box">3</div>
+			<div class="box">4</div>
+			<div class="box">5</div>
+			<div class="box">1</div>
+			<div class="box">2</div>
+			<div class="box">3</div>
+			<div class="box">4</div>
+			<div class="box">5</div>
+			<div class="box">1</div>
+			<div class="box">2</div>
+			<div class="box">3</div>
+			<div class="box">4</div>
+			<div class="box">5</div>
+			<div class="box">1</div>
+			<div class="box">2</div>
+			<div class="box">3</div>
+			<div class="box">4</div>
+			<div class="box">5</div>
+		</div>
+		
+		<h2>align-content:center</h2>
+		<div class="background align-content-center">
+			<div class="box">1</div>
+			<div class="box">2</div>
+			<div class="box">3</div>
+			<div class="box">4</div>
+			<div class="box">5</div>
+			<div class="box">1</div>
+			<div class="box">2</div>
+			<div class="box">3</div>
+			<div class="box">4</div>
+			<div class="box">5</div>
+			<div class="box">1</div>
+			<div class="box">2</div>
+			<div class="box">3</div>
+			<div class="box">4</div>
+			<div class="box">5</div>
+			<div class="box">1</div>
+			<div class="box">2</div>
+			<div class="box">3</div>
+			<div class="box">4</div>
+			<div class="box">5</div>
+			<div class="box">1</div>
+			<div class="box">2</div>
+			<div class="box">3</div>
+			<div class="box">4</div>
+			<div class="box">5</div>
+		</div>
+		
+		<h2>align-content:space-between</h2>
+		<div class="background align-content-space-between">
+			<div class="box">1</div>
+			<div class="box">2</div>
+			<div class="box">3</div>
+			<div class="box">4</div>
+			<div class="box">5</div>
+			<div class="box">1</div>
+			<div class="box">2</div>
+			<div class="box">3</div>
+			<div class="box">4</div>
+			<div class="box">5</div>
+			<div class="box">1</div>
+			<div class="box">2</div>
+			<div class="box">3</div>
+			<div class="box">4</div>
+			<div class="box">5</div>
+			<div class="box">1</div>
+			<div class="box">2</div>
+			<div class="box">3</div>
+			<div class="box">4</div>
+			<div class="box">5</div>
+			<div class="box">1</div>
+			<div class="box">2</div>
+			<div class="box">3</div>
+			<div class="box">4</div>
+			<div class="box">5</div>
+		</div>
+		<h2>align-content:space-around</h2>
+		<div class="background align-content-space-around">
+			<div class="box">1</div>
+			<div class="box">2</div>
+			<div class="box">3</div>
+			<div class="box">4</div>
+			<div class="box">5</div>
+			<div class="box">1</div>
+			<div class="box">2</div>
+			<div class="box">3</div>
+			<div class="box">4</div>
+			<div class="box">5</div>
+			<div class="box">1</div>
+			<div class="box">2</div>
+			<div class="box">3</div>
+			<div class="box">4</div>
+			<div class="box">5</div>
+			<div class="box">1</div>
+			<div class="box">2</div>
+			<div class="box">3</div>
+			<div class="box">4</div>
+			<div class="box">5</div>
+			<div class="box">1</div>
+			<div class="box">2</div>
+			<div class="box">3</div>
+			<div class="box">4</div>
+			<div class="box">5</div>
+		</div>
+		
+		<h2>align-content:space-evenly</h2>
+		<div class="background align-content-space-around">
+			<div class="box">1</div>
+			<div class="box">2</div>
+			<div class="box">3</div>
+			<div class="box">4</div>
+			<div class="box">5</div>
+			<div class="box">1</div>
+			<div class="box">2</div>
+			<div class="box">3</div>
+			<div class="box">4</div>
+			<div class="box">5</div>
+			<div class="box">1</div>
+			<div class="box">2</div>
+			<div class="box">3</div>
+			<div class="box">4</div>
+			<div class="box">5</div>
+			<div class="box">1</div>
+			<div class="box">2</div>
+			<div class="box">3</div>
+			<div class="box">4</div>
+			<div class="box">5</div>
+			<div class="box">1</div>
+			<div class="box">2</div>
+			<div class="box">3</div>
+			<div class="box">4</div>
+			<div class="box">5</div>
+		</div>
+		
+		<h2>align-content:stretch</h2>
+		<div class="background align-content-stretch">
+			<div class="box">1</div>
+			<div class="box1">2</div>
+			<div class="box">3</div>
+			<div class="box">4</div>
+			<div class="box">5</div>
+		</div>
+		
+		<h2>child-property:-</h2><br/><br/>
+		
+		<h2>flex-basis:()px</h2>
+			<div class="background">
+				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+			</div>	
+			
+		
+		<h2>flex-grow</h2>
+		<div class="background">
+			<div class="box">1</div>
+			<div class="abox">2</div>
+			<div class="box">3</div>
+			<div class="box">4</div>
+			<div class="box">5</div>
+		</div>	
+		
+		<h2>flex-shrink</h2>
+		<div class="background1 shrink">
+			<div class="box">1</div>
+			<div class="box">2</div>
+			<div class="bbox">3</div>
+			<div class="box">4</div>
+			<div class="box">5</div>
+			<div class="box">1</div>
+			<div class="box">2</div>
+			<div class="box">3</div>
+			<div class="box">4</div>
+			<div class="box">5</div>
+			<div class="box">1</div>
+			<div class="box">2</div>
+			<div class="box">3</div>
+			<div class="box">4</div>
+			<div class="box">5</div>
+			<div class="box">1</div>
+			<div class="box">2</div>
+			<div class="box">3</div>
+			<div class="box">4</div>
+			<div class="box">5</div>
+			<div class="box">1</div>
+			<div class="box">2</div>
+			<div class="box">3</div>
+			<div class="box">4</div>
+			<div class="box">5</div>
+		</div>	
+		
+		<h2>order</h2>
+		<div class="background">
+			<div class="box">1</div>
+			<div class="box">2</div>
+			<div class="cbox">3</div>
+			<div class="box">4</div>
+			<div class="dbox">5</div>
+		</div>
+		
+		<h2>align-self:flex-start(row)</h2>
+		<div class="background">
+			<div class="ebox">1</div>
+			<div class="box">2</div>
+			<div class="box">3</div>
+			<div class="box">4</div>
+			<div class="box">5</div>
+		</div>
+		
+		<h2>align-self:flex-start(column)</h2>
+		<div class="background bgc">
+			<div class="ebox">1</div>
+			<div class="box">2</div>
+			<div class="box">3</div>
+			<div class="box">4</div>
+			<div class="box">5</div>
+		</div>
+
+		<h2>align-self:flex-end(row)</h2>
+		<div class="background">
+			<div class="box">1</div>
+			<div class="fbox">2</div>
+			<div class="box">3</div>
+			<div class="box">4</div>
+			<div class="box">5</div>
+		</div>	
+		
+		<h2>align-self:flex-end(column)</h2>
+		<div class="background bgc">
+			<div class="box">1</div>
+			<div class="fbox">2</div>
+			<div class="box">3</div>
+			<div class="box">4</div>
+			<div class="box">5</div>
+		</div>	
+
+		<h2>align-self:center(row)</h2>
+		<div class="background">
+			<div class="box">1</div>
+			<div class="box">2</div>
+			<div class="gbox">3</div>
+			<div class="box">4</div>
+			<div class="box">5</div>
+		</div>
+		
+		<h2>align-self:center(column)</h2>
+		<div class="background bgc">
+			<div class="box">1</div>
+			<div class="box">2</div>
+			<div class="gbox">3</div>
+			<div class="box">4</div>
+			<div class="box">5</div>
+		</div>
+
+		<h2>align-self:stretch(row)</h2>
+		<div class="background">
+			<div class="box">1</div>
+			<div class="box">2</div>
+			<div class="box">3</div>
+			<div class="hbox">4</div>
+			<div class="box">5</div>
+		</div>	
+		
+		<h2>align-self:stretch(column)</h2>
+		<div class="background bgc">
+			<div class="box">1</div>
+			<div class="box">2</div>
+			<div class="box">3</div>
+			<div class="hsbox">4</div>
+			<div class="box">5</div>
+		</div>	
+
+		<h2>align-self:baseline(row)</h2>
+			<div class="background">
+				<div class="box">1</div>
+				<div class="box">2</div>
+				<div class="box">3</div>
+				<div class="box">4</div>
+				<div class="ibox">lorem ipsum is provide dummy contain lorem ipsum is provide dummy contain.</div>
+			</div>	
+
+		<h2>align-self:baseline(column)</h2>
+			<div class="background bgc">
+				<div class="box">1</div>
+				<div class="box">2</div>
+				<div class="box">3</div>
+				<div class="box">4</div>
+				<div class="ibbox">lorem ipsum is provide dummy contain lorem ipsum is provide dummy contain.</div>
+			</div>
+	</body>
+</html>

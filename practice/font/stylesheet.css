@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Agbalumo';
+    src: url('Agbalumo-Regular.woff2') format('woff2'),
+        url('Agbalumo-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

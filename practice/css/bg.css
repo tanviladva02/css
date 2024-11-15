@@ -1,0 +1,13 @@
+.a{
+		background:url(https://i.pinimg.com/originals/00/ca/89/00ca896b347c3484a923a05c1a108720.jpg);
+		background-position:0 -700px;
+		height:720px;
+		background-attachment:fixed;
+		
+}
+
+.b{
+	background:url(https://i.pinimg.com/originals/5c/28/2e/5c282ed6fe52ce9f58c3d2129e123a48.jpg);
+	height:720px;
+	background-position:top;
+}

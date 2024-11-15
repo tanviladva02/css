@@ -1,0 +1,23 @@
+.bg1{
+	width:100%;
+	height:1000px;
+	background:url(https://i.pinimg.com/originals/9f/1e/f0/9f1ef048539f565a78296d5b4c18c4ac.jpg) ,linear-gradient(green,white,blue);
+	background-blend-mode:multiply;
+	background-size:cover;
+	background-attachment:fixed;
+}
+.bg2{
+	height:900px;
+	background:url(https://img3.goodfon.com/original/2048x1365/8/69/priroda-gory-kamni-les.jpg);
+	
+}
+.bg3{
+	background:url(https://www.wallpapers13.com/wp-content/uploads/2016/02/Wallpaper-hd-quality-underwater-world-ocean-coral-reef-tropical-fishes.jpg);
+	height:900px;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+}
+.bg4{
+	background:url(https://img3.goodfon.com/original/2048x1365/8/69/priroda-gory-kamni-les.jpg);
+	height:900px;
+}

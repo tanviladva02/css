@@ -1,0 +1,181 @@
+/* XL */
+@media(max-width:1399px)
+{
+	.container{
+		max-width:1140px;
+	}
+	
+	
+}
+/* LG */
+@media(max-width:1199px)
+{
+	.container{
+		max-width:960px;
+	}
+	.w-lg-2{
+		width:50%;
+	}
+	
+	/* CONTAIN */
+	
+	.contain p{
+		transform:translateX(0);
+		padding-left:20px;
+	}
+	
+	.journal-inner .journal-items{
+		border-style:none;
+		padding:20px;
+	}
+	
+	/* COUNTRIES */
+	
+ .countries-inner .w-3:last-child .countries-items{
+		margin:0  20px 100px 20px;
+	}		
+	
+	/* ARTICALS */
+	
+	.artical-item {
+		transform:translateX(0);
+		padding-left:20px;
+	}
+	
+	/* BLOG */
+
+		.blog-title{
+			margin-bottom:50px;
+		}
+}
+
+/* MD */
+@media(max-width:991px)
+{
+	.container{
+		max-width:720px;
+		position:relative;
+	}
+	.w-md-2{
+		width:50%;
+	}
+	.w-md-3{
+		width:33.33%;
+	}
+	.journal-title h2, .way-items h2,.blog-title h2{
+		font-weight:500;
+		font-size:25px;
+	}
+	p{
+		font-size:16px!important;
+	}
+	h1{
+		font-size:30px!important;
+	}
+	
+	/* HEADER */
+	
+	header nav ul li a{
+		/* display:none; */
+	}
+	.togle-menu{
+		display:block;
+	}
+	header nav ul li a{
+		padding:10px;
+	}
+	header nav ul{
+		flex-direction:column;
+		position:absolute;
+		top:100%;
+		left:0;
+		/* transform:translateX(-350%); */
+		background-color:pink;
+	}
+	
+	}
+	
+	/* JOURNAL */
+	
+	.journal-items img{
+		padding:20px;
+	}
+	.journal-inner .w-3:first-child .journal-items, .journal-inner .w-3:nth-child(3) .journal-items, .journal-inner .w-3:nth-child(5) .journal-items {
+    padding:40px;
+}
+	
+	/* CONTACT */
+	
+	.contact-items form button{
+		width:370px;
+		transform:translateX(0);
+	}
+	
+	/* WAY */
+	
+	.way-items{
+		padding:25px;
+	}
+	
+	/* FOOTER */
+	
+	.footer-inner .w-4:last-child .footer-items{
+		margin-top:70px;
+	}
+	
+	
+}
+/* SM */
+@media(max-width:767px)
+{
+	.container{
+		max-width:540px;
+	}
+	.w-sm-1{
+		width:100%;
+	}
+	.w-sm-2{
+		width:50%;
+	}
+	
+	/* COUNTRIES */
+	
+	.countries-inner .w-3:first-child .countries-items{
+		margin-bottom:0;
+	}
+	.countries-inner .w-3:last-child .countries-items{
+		margin-bottom:150px;
+	}
+	
+	/* WAY */
+	
+	.way-inner .w-3:last-child .way-items{
+		margin-bottom:100px;
+	}
+	
+	/* FOOTER */
+	
+	.footer-inner .w-4:nth-child(3) .footer-items{
+		margin-top:70px;
+	}	
+}
+
+/* XS */
+@media(max-width:575px)
+{
+	.container{
+		max-width:100%;
+	}
+	.w-xs-1{
+		width:100%;
+	}
+	
+	/* FOOTER */
+	
+	.footer-inner .w-4:nth-child(2) .footer-items{
+		margin-top:70px;
+	}
+	.footer-items{
+		padding-left:20px;
+	}
+}

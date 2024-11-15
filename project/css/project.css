@@ -1,0 +1,54 @@
+p{
+	font-family:mooli;
+	background-color:#F9F3CC;
+	text-indent:5%;
+	word-spacing:10px;
+	line-height:30px;
+}
+
+.ri-emotion-laugh-line{
+	font-size:90px;
+	margin:450px;
+	color:#649999;
+}
+
+.ri-snapchat-line{
+	font-size:100px;
+	margin:-450px;
+	color:#F4E869;
+}
+
+
+
+.p2{
+	background-color:#12486B;
+	font-family:croisantt;
+	text-indent:7%;
+	text-align:justify;
+	line-height:30px;
+	text-transform:uppercase;
+	color:white;
+}
+
+.ri-global-fill{
+	
+	font-size:90px;
+	margin:450px;
+	color:#6499E9;
+}
+
+.ri-send-plane-fill{
+	font-size:90px;
+	margin:-450px;
+	color:#004225;
+}
+
+h1{
+	text-align:center;
+	color:#143143;
+	font-style:bold;
+}
+
+hr{
+	height:2px;
+}

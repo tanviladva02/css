@@ -1,0 +1,21 @@
+.p{
+	width:500px;
+	height:500px;
+	background:skyblue;
+}
+
+.w{
+	width:500px;
+	height:500px;
+	background:linear-gradient(45deg,orange,red,yellow,green);
+}
+.q{
+	width:500px;
+	height:500px;
+	background:radial-gradient(circle,red,skyblue,purple);
+}
+.t{
+	width:500px;
+	height:500px;
+	background:conic-gradient(yellow,orange,yellow);
+}

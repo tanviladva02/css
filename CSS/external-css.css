@@ -1,0 +1,33 @@
+h1{
+	color:red;
+	font-size:50px;
+}
+i{
+	color:yellow;
+	font-size:100px;
+}
+
+.fa-linkedin{
+	color:blue;
+	font-size:120px;
+}
+
+.icon-star-empty{
+	color:gray;
+	font-size:70px;
+}
+
+.icon-brightness-contrast{
+	color:blue;
+	font-size:100px;
+}
+
+.icon-star-half{
+	color:orange;
+	font-size:70px;
+}
+
+.icon-star-full{
+	color:blue;
+	font-size:70px;
+}

@@ -1,0 +1,13 @@
+*{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+}
+.traingle{
+	margin:30px;
+	height:0;
+	width:0;
+	border-bottom:100px solid pink;
+	border-right:50px solid transparent;
+	border-left:50px solid transparent;
+}

@@ -1,0 +1,15 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+.a li:nth-child(3n-1){
+	color:blue;
+}
+.a{
+	margin:30px;
+}
+.p:{
+	background-color:black;
+	color:white;
+}

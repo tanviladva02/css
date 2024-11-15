@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Filter-Property & Scrollbar</title>
+		<style>
+			*{
+				margin:0;
+				pading:0;
+				box-sizing:border-box;
+			}
+			.img{
+				transition:0.4s;
+			}
+			.img1{
+				filter:blur(5px);
+			}
+			.img1:hover{
+				filter:none;
+			}
+			.img2:hover{
+				filter:brightness(120%);
+			}
+			.img3:hover{
+				filter:contrast(200%);
+			}
+			.img4:hover{
+				filter:drop-shadow(10px 10px 5px blue);
+			}
+			.img5:hover{
+				filter:grayscale(90%);
+			}
+			.img6:hover{
+				filter:hue-rotate(90deg);
+			}
+			.img7:hover{
+				filter:invert(10%);
+			}
+			.img8:hover{
+				filter:opacity(70%);
+			}
+			.img9:hover{
+				filter:saturate(10%);
+			}
+			.img10:hover{
+				filter:sepia(100%);
+			}
+			::-webkit-scrollbar{
+				width:15px;
+			}
+			::-webkit-scrollbar-track:hover{
+				background-color:#F3F3F3;
+			}
+			::-webkit-scrollbar-thumb{
+				background-color:gray;
+				border-radius:6px;
+			}
+		</style>
+	</head>
+	<body>
+	
+		<img src="img/img1.jpg" alt="img1" alt="img1" class="img1"/>
+		<img src="img/img1.jpg" alt="img1" alt="img1" class="img2"/>
+		<img src="img/img1.jpg" alt="img1" alt="img1" class="img3"/>
+		<img src="img/img2.png" alt="img2" alt="img2" class="img4" width="700px"/>
+		<img src="img/img1.jpg" alt="img1" alt="img1" class="img5"/>
+		<img src="img/img1.jpg" alt="img1" alt="img1" class="img6"/>
+		<img src="img/img1.jpg" alt="img1" alt="img1" class="img7"/>
+		<img src="img/img1.jpg" alt="img1" alt="img1" class="img8"/>
+		<img src="img/img1.jpg" alt="img1" alt="img1" class="img9"/>
+		<img src="img/img1.jpg" alt="img1" alt="img1" class="img10"/>
+	</body>
+</html>

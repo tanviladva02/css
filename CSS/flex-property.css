@@ -1,0 +1,193 @@
+*{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+}
+h2{
+	font-size:30px;
+}
+.background{
+	height:500px;
+	background-color:#F1EFEF;
+	display:flex;
+	flex-wrap:wrap;
+}
+.box{
+	height:70px;
+	width:70px;
+	background-color:skyblue;
+	color:blue;
+	text-align:center;
+	line-height:70px;
+	margin:10px;
+}
+.row{
+	flex-direction:row;
+}
+.row-reverse{
+	flex-direction:row-reverse;
+}
+.column{
+	flex-direction:column;
+}
+.column-reverse{
+	flex-direction:column-reverse;
+}
+.wrap{
+	flex-wrap:wrap;
+}
+.no-wrap{
+	flex-wrap:no-wrap;	
+}
+.wrap-reverse{
+	flex-wrap:wrap-reverse;
+}
+.direction-wrap{
+	flex-flow:column wrap;
+}
+.flex-start{
+	justify-content:flex-start;
+}
+.flex-end{
+	justify-content:flex-end;
+}
+.center{
+	justify-content:center;
+}
+.space-between{
+	justify-content:space-between;
+}
+.space-around{
+	justify-content:space-around;
+}
+.space-evenly{
+	justify-content:space-evenly;
+}
+.align-items-flex-start{
+	align-items:flex-start;
+}
+.align-items-flex-end{
+	align-items:flex-end;
+}
+.box1{
+	width:70px;
+	background-color:skyblue;
+	margin:10px;
+	color:blue;
+	text-align:center;
+}
+.box2{
+	width:70px;
+	background-color:skyblue;
+	margin:10px;
+	color:blue;
+	text-align:center;
+}
+.align-baseline{
+	align-items:baseline;
+}
+.align-content-flextstart{
+	align-content:flex-start;
+}
+.align-content-flexend{
+	align-content:flex-end;
+}
+.align-content-center{
+	align-content:center;
+}
+.align-content-space-between{
+	align-content:space-between;
+}
+.align-content-space-around{
+	align-content:space-around;
+}
+.align-content-space-evenly{
+	align-content:space-evenly;
+}
+.align-content-stretch{
+	align-content:stretch;
+}
+p{
+	background-color:skyblue;
+	color:blue;
+	margin:10px;
+	flex-basis:500px;	
+}
+.abox{
+	height:70px;
+	width:70px;
+	background-color:skyblue;
+	color:blue;
+	text-align:center;
+	line-height:70px;
+	margin:10px;
+	flex-grow:1;
+}
+.background1{
+	height:500px;
+	background-color:#F1EFEF;
+	display:flex;
+}
+.bbox{
+	height:70px;
+	width:70px;
+	background-color:skyblue;
+	color:blue;
+	text-align:center;
+	line-height:70px;
+	margin:10px;
+	flex-shrink:6;
+}
+.cbox,.dbox,.ebox,.fbox,.gbox{
+	height:70px;
+	width:70px;
+	background-color:skyblue;
+	color:blue;
+	text-align:center;
+	line-height:70px;
+	margin:10px;
+	order:50;
+}
+.dbox{
+	order:51;
+}
+.ebox{
+	align-self:flex-start;
+}
+.fbox{
+	align-self:flex-end;
+}
+.gbox{
+	align-self:center;
+}
+.hbox{
+	width:70px;
+	background-color:skyblue;
+	color:blue;
+	text-align:center;
+	margin:10px;
+}
+.hsbox{
+	background-color:skyblue;
+	color:blue;
+	height:70px;
+}
+.bgc{
+	flex-direction:column;
+}
+.ibox{
+	align-self:baseline;
+	width:70px;
+	background-color:skyblue;
+	color:blue;
+	text-align:center;
+	margin:10px;
+}
+.ibbox{
+	align-self:baseline;
+	/* height:70px; */
+	background-color:skyblue;
+	color:blue;
+	text-align:center;
+	margin:10px;
+}

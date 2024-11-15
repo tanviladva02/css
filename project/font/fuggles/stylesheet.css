@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Fuggles';
+    src: url('Fuggles-Regular.woff2') format('woff2'),
+        url('Fuggles-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

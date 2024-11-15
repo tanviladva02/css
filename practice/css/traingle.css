@@ -1,0 +1,28 @@
+*{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+}
+.traingle{
+	margin:30px;
+	height:0;
+	width:0;
+	border-bottom:100px solid pink;
+	border-right:50px solid transparent;
+	border-left:50px solid transparent;
+}
+.icon-firefox:before {
+  content: "\eada";
+}
+ li{
+	margin:30px;
+}
+p:after{
+	content:url(https://m.media-amazon.com/images/I/41E8Nv-TMGL._SR600%2C315_PIWhiteStrip%2CBottomLeft%2C0%2C35_PIStarRatingTHREEANDHALF%2CBottomLeft%2C360%2C-6_SR600%2C315_ZA11%2C445%2C290%2C400%2C400%2CAmazonEmberBold%2C12%2C4%2C0%2C0%2C5_SCLZZZZZZZ_FMpng_BG255%2C255%2C255.jpg);
+}
+.img{
+	position:absolute;
+	left:50%;
+	margin:50px;
+	top:16px;
+}

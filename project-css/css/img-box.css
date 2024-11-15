@@ -1,0 +1,66 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+h2{
+	font-size:50px;
+}
+.box, .box1, .box2, .box3, .box4, .slider, .box5{
+	width:400px;
+	height:400px;
+	overflow:hidden;
+}
+body{
+	background-color:pink;
+	margin-left:35%;
+}
+.slider{
+	background-color:orange;
+	position:absolute;
+	top:100%;
+	left:0;
+	transition:4s;
+	text-align:center;
+	padding:170px 20px;
+	color:white;
+}
+.box{
+	background-color:skyblue;
+}
+.i{
+	transition:3s;
+}
+.box:hover .i{
+	transform:rotate(360deg);
+}
+.i1{
+	object-fit:cover;
+	object-position:right;
+}
+.box1:hover .i1{
+	transform:scale(0.9);
+	transform-origin:center;
+}
+.i2{
+	overflow:hidden;
+	padding:30px;
+}
+.box2:hover .i2{
+	transform:skew(10deg);
+}
+.box3:hover .i3{
+	transform:translate(-50px);
+}
+.box4{
+	position:relative;
+}
+.box4:hover .slider{
+	top:0;
+}
+.box5{
+	background-color:gray;
+}
+.box5:hover .ii{
+	transform:rotate(45deg) scale(1.5) skew(20deg) translate(10px, 20px);
+}
